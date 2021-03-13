@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="22.326">
+    <testcase classname="Validation of Products Page" name="Validation of New Product Creation" time="9.795">
+        <system-out>
+            <![CDATA[Given the user navigates product website home page..........................passed
+When the user enters product info "MyMoney" and "4".........................passed
+And the user enters the address info "Techtorial", "2200 E Devon", "Des Plaines", "IL", "60018".passed
+* the user enters the card info "Visa", "1343565342", "04/22"...............passed
+And the user validate success message.......................................passed
+Then the user validate product detail "MyMoney","4", "Techtorial", "2200 E Devon", "Des Plaines", "IL", "60018", "Visa", "1343565342", "04/22".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Validation of Products Page" name="Validation of New Product Creation 2" time="3.064">
+        <system-out>
+            <![CDATA[Given the user navigates product website home page..........................passed
+When the user enters product info "FamilyAlbum" and "2".....................passed
+And the user enters the address info "Academy", "2200 E Devon", "Austin", "TX", "90007".passed
+* the user enters the card info "MasterCard", "4444555566667777", "08/21"...passed
+And the user validate success message.......................................passed
+Then the user validate product detail "FamilyAlbum","2", "Academy", "2200 E Devon", "Austin", "TX", "90007", "MasterCard", "4444555566667777", "08/21".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Validation of Products Page" name="Validation of New Product Creation 3" time="2.699">
+        <system-out>
+            <![CDATA[Given the user navigates product website home page..........................passed
+When the user enters product info "MyMoney" and "4".........................passed
+And the user enters the address info "Techtorial", "2200 E Devon", "Des Plaines", "IL", "60018".passed
+* the user enters the card info "Visa", "1343565342", "04/22"...............passed
+And the user validate success message.......................................passed
+Then the user validate product detail "MyMoney","4", "Techtorial", "2200 E Devon", "Des Plaines", "IL", "60018", "Visa", "1343565342", "04/22".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Validation of Products Page" name="Validation of New Product Creation 4" time="3.189">
+        <system-out>
+            <![CDATA[Given the user navigates product website home page..........................passed
+When the user enters product info "FamilyAlbum" and "2".....................passed
+And the user enters the address info "Academy", "2200 E Devon", "Austin", "TX", "90007".passed
+* the user enters the card info "MasterCard", "4444555566667777", "08/21"...passed
+And the user validate success message.......................................passed
+Then the user validate product detail "FamilyAlbum","2", "Academy", "2200 E Devon", "Austin", "TX", "90007", "MasterCard", "4444555566667777", "08/21".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Validation of Products Page" name="Validation of New Product Creation 5" time="3.238">
+        <system-out>
+            <![CDATA[Given the user navigates product website home page..........................passed
+When the user enters product info "ScreenSaver" and "5".....................passed
+And the user enters the address info "Techtorial1", "2200 E Devon", "Chicago", "IL", "60066".passed
+* the user enters the card info "American Express", "5555666677778888", "04/22".passed
+And the user validate success message.......................................passed
+Then the user validate product detail "ScreenSaver","5", "Techtorial1", "2200 E Devon", "Chicago", "IL", "60066", "American Express", "5555666677778888", "04/22".passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
